@@ -1,0 +1,10 @@
+{
+  "name": "Thriam-md",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.0.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
