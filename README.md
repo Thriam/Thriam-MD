@@ -13,3 +13,6 @@ and the file will be saved as "session.data.json" which can be renamed as "Thria
 This files are created by Thriam bakesvar B for educational purposes only.
 
 Please do give a star.
+
+Thanks to
+@adiwajshing for Baileys MD
