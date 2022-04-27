@@ -1,3 +1,5 @@
+//Made by Thriam bakesvar B
+
 const makeWASocket = require("@adiwajshing/baileys").default
 const qrcode = require("qrcode-terminal")
 const { delay, useSingleFileAuthState } = require("@adiwajshing/baileys")
