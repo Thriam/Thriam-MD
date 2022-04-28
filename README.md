@@ -15,4 +15,4 @@ This files are created by Thriam bakesvar B for educational purposes only.
 Please do give a star.
 
 Thanks to
-@adiwajshing for Baileys MD
+<a href="https://github.com/adiwajshing">@adiwajshing</a>"for"<a href="https://github.com/adiwajshing/Baileys">Baileys</a>
