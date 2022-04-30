@@ -3,7 +3,7 @@
 const makeWASocket = require("@adiwajshing/baileys").default
 const qrcode = require("qrcode-terminal")
 const { delay, useSingleFileAuthState } = require("@adiwajshing/baileys")
-const { state, saveState } = useSingleFileAuthState('./auth_info_multi.json')
+const { state, saveState } = useSingleFileAuthState('./session.data.json')
 
 function qr() {
   let session = makeWASocket({
