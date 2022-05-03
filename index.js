@@ -7,25 +7,26 @@ const { state, saveState } = useSingleFileAuthState('./session.data.json')
 
 function thriam() {
   let session = makeWASocket({
+    browser: ['Thriam','Safari','1.0.0'],
     auth: state,
     printQRInTerminal: true,
-    browser: ['Thriam','Safari','1.0.0'],
   })
   session.ev.on("connection.update", async (s) => {
     const { connection, lastDisconnect } = s
-    if (connection == "open") {
-      await delay(1000 * 10)
-      process.exit(0)
-    }
     if (
       connection === "close" &&
       lastDisconnect &&
-	@@ -25,8 +22,16 @@ function thriam() {
+      lastDisconnect.error &&
+      lastDisconnect.error.output.statusCode != 401
     ) {
       thriam()
     }
+    else if (connection == "open"){
+            await delay(1000 * 10)
+            process.exit(0)
+        }
   })
   session.ev.on('creds.update', saveState)
-  session.ev.on("messages.upsert", () => { })
+  session.ev.on('messages.upsert', () => {})
 }
 thriam()
