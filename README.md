@@ -18,5 +18,5 @@ Thanks to
 <a href="https://github.com/adiwajshing">@adiwajshing</a> for <a href="https://github.com/adiwajshing/Baileys">Baileys</a>
 
 # Replit Method
-<a href="https://replit.com/@Thriam/Thriam-MD" rel="nofollow"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Repl.it_logo.svg" alt="Scan QR" height="112" width="300" data-canonical-src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Repl.it_logo.svg" style="max-width: 100%;"></a>
+<a href="https://replit.com/@Thriam/Thriam-MD" rel="nofollow"><img align="center" src="https://bit.ly/37t6xjD" alt="Scan QR" height="112" width="300" data-canonical-src="https://bit.ly/37t6xjD" style="max-width: 100%;"></a>
 1. Now you can scan the code from replit above and follow the instructions in the comments section of the replit.
